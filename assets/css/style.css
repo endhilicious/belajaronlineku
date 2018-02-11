@@ -1,0 +1,87 @@
+.ukuran{
+  width: 90%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav>li>a{
+  width: 100% !important;
+  background: black;
+  color: white;
+  text-align: center;
+}
+.nav-tabs>li>a:hover{
+  color: black;
+  background: #65d9ff;
+}
+.soal{
+  border: 1px solid lightgrey;
+}
+/*edit soal*/
+.affix{
+  position: inherit;
+}
+.piihanjawaban{
+  padding: 10px;
+  background-color: lightgrey;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+/*end edit soal*/
+ul li {
+  width: 10%;
+  border: 1px solid grey;
+}
+a{
+  color: white;
+  text-align: center;
+}
+.nav>li{
+  margin: 5%;
+}
+ul.nav{
+  max-height: 50%;
+  height: 300px;
+  overflow-y: scroll;
+}
+div.col-md-9{
+  max-height: 500px;
+}
+.navbar{
+  background-color: blue;
+}
+/*untuk waktu*/
+p#demo{
+  text-align: center;
+  font-size: 30px;
+}
+#number{
+  margin-top: 0px;
+  padding: 10px;
+}
+#jawaban{
+  height: 20px;
+  width: 20px;
+  margin-bottom: -10px;
+  background-color: white;
+  border: 1px solid grey;
+  position: relative;
+  border-radius: 50%;
+  top: 0px;
+  z-index: 9999;
+  text-align: center;
+}
+/*=========*/
+/*edit from bootstrap*/
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  background-color: #acf2f9 !important;
+}
+.nav>li>a{
+  padding: 10px 0px !important;
+}
+/*end of edit bootstrap*/
